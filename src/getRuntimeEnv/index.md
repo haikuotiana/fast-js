@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { getRuntimeEnv } from 'fast-js';
+import { getRuntimeEnv } from 'fast-utiljs';
 
 const env = getRuntimeEnv();
 console.log(env);

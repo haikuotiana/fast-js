@@ -2,7 +2,7 @@ export default {
   esm: 'rollup',
   cjs: 'rollup',
   umd: {
-    file: 'fast-js',
+    file: 'fast-utiljs',
   },
   runtimeHelpers: true,
 };

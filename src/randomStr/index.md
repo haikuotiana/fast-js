@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { randomStr } from 'fast-js';
+import { randomStr } from 'fast-utiljs';
 
 randomStr(6); // 生成个数为6的字符串
 

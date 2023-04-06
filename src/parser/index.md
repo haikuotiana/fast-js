@@ -26,7 +26,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { parser } from 'fast-js';
+import { parser } from 'fast-utiljs';
 
 const door = {
   a: 1,
@@ -96,7 +96,7 @@ parser.nativeParse(door);
 /**
  * title: 打开控制台查看结果
  */
-import { parser } from 'fast-js';
+import { parser } from 'fast-utiljs';
 
 const door = {
   a: 1,

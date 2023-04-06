@@ -19,7 +19,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { base64 } from 'fast-js';
+import { base64 } from 'fast-utiljs';
 
 base64.encode('h5-dooring'); // -> aDUtZG9vcmluZw==
 base64.decode('aDUtZG9vcmluZw=='); // -> h5-dooring

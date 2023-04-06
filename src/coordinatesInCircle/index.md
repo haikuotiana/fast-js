@@ -22,7 +22,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { coordinatesInCircle } from 'fast-js';
+import { coordinatesInCircle } from 'fast-utiljs';
 
 const point = coordinatesInCircle([2, 3], 2);
 console.log(point); // -> [ 2, 4 ]

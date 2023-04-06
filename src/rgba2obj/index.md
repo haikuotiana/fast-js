@@ -14,7 +14,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { rgba2obj } from 'fast-js';
+import { rgba2obj } from 'fast-utiljs';
 
 // 将 rgba 字符串转为 rgba 对象
 rgba2obj('rgba(20,100,20,0.2)'); // -> {r: 20, g: 100, b: 20, a: 0.2}

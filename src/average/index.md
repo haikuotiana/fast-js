@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { average } from 'fast-js';
+import { average } from 'fast-utiljs';
 
 average([1, 2, 3, 4, 5]); // -> 3
 ```

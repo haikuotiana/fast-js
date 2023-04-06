@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { hyphenate } from 'fast-js';
+import { hyphenate } from 'fast-utiljs';
 // 默认用横线分隔
 const name = hyphenate('EaCdEf');
 console.log(name); // EaCdEf ==> ea-cd-ef

@@ -20,7 +20,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { fibonacci } from 'fast-js';
+import { fibonacci } from 'fast-utiljs';
 
 fibonacci(0); // -> 0
 fibonacci(6); // -> 8

@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { random } from 'fast-js';
+import { random } from 'fast-utiljs';
 
 console.log(random(1, 2)); // -> 1.6718418553475423
 ```

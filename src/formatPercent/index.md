@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { formatPercent } from 'fast-js';
+import { formatPercent } from 'fast-utiljs';
 const num = formatPercent(0.1234, 2);
 console.log(num); // -> 12.34%
 ```

@@ -14,7 +14,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { hex2rgba } from 'fast-js';
+import { hex2rgba } from 'fast-utiljs';
 
 // hex 色值转 rgba 信息
 hex2rgba('#fff'); // -> {v: 'rgba(255,255,255,1)', o: {r: 255, g: 255, b: 255, a: 1}}

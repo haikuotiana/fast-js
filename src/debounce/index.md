@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { debounce } from 'fast-js';
+import { debounce } from 'fast-utiljs';
 
 function sayLove(name) {
   return name;

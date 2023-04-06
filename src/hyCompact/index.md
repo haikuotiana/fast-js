@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { hyCompact } from 'fast-js';
+import { hyCompact } from 'fast-utiljs';
 // 默认用横线分隔
 const name = hyCompact('EACdEf');
 console.log(name); // EACdEf ==> ea-cd-ef

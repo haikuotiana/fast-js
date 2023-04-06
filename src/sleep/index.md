@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { sleep } from 'fast-js';
+import { sleep } from 'fast-utiljs';
 
 async function sayLove() {
   await sleep(3000);

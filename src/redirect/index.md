@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { redirect } from 'fast-js';
+import { redirect } from 'fast-utiljs';
 
 redirect('http://h5.dooring.cn');
 ```

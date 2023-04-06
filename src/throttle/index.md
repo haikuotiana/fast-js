@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { throttle } from 'fast-js';
+import { throttle } from 'fast-utiljs';
 
 function sayLove(name) {
   return name;

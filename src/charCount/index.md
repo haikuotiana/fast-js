@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { charCount } from 'fast-js';
+import { charCount } from 'fast-utiljs';
 
 charCount('abc-def-h5-dooring', '-'); // -> 3
 ```

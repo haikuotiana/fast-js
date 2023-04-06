@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { getRawType } from 'fast-js';
+import { getRawType } from 'fast-utiljs';
 
 const name = getRawType('h5-dooring');
 console.log(name); // String

@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { isArray } from 'fast-js';
+import { isArray } from 'fast-utiljs';
 
 isArray([]); // -> true
 ```

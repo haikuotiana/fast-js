@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { transformTree } from 'fast-js';
+import { transformTree } from 'fast-utiljs';
 
 const data = [
   {

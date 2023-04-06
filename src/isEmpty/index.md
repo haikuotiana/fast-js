@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { isEmpty } from 'fast-js';
+import { isEmpty } from 'fast-utiljs';
 
 isEmpty({}); // -> true
 ```

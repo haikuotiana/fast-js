@@ -1,6 +1,6 @@
 ---
 hero:
-  title: fast-js
+  title: fast-utiljs
   desc: 一款面向复杂业务场景的javascript工具库
   actions:
     - text: 开始使用
@@ -23,14 +23,14 @@ features:
 1. 通过 npm /yarn
 
 ```bash
-# yarn add fast-js
-npm install fast-js
+# yarn add fast-utiljs
+npm install fast-utiljs
 ```
 
 2. 通过 cdn 引入
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fast-js@1.1.1/dist/fast-js.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fast-utiljs@1.1.1/dist/fast-utiljs.min.js"></script>
 ```
 
 ### 贡献者

@@ -14,7 +14,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { isPc } from 'fast-js';
+import { isPc } from 'fast-utiljs';
 
 // 判断当前设备是否为pc端
 const isPc = isPc();

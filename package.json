@@ -1,8 +1,8 @@
 {
-  "name": "fast-js",
-  "version": "1.0.0",
-  "description": "Fast-JS is a quick to use tool library that is easy to use in daily development, simple and convenient",
-  "author": "zhangxiaoqi",
+  "name": "fast-utiljs",
+  "version": "1.0.3",
+  "description": "fast-utiljs is a quick to use tool library that is easy to use in daily development, simple and convenient",
+  "author": "haikuotiana",
   "keywords": [
     "javascript tool",
     "js tool",
@@ -55,7 +55,5 @@
     "prettier": "^2.2.1",
     "yorkie": "^2.0.0"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com"
-  }
+  "license": "ISC"
 }

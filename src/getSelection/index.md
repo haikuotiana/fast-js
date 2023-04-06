@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { getSelection } from 'fast-js';
+import { getSelection } from 'fast-utiljs';
 
 getSelection(); // -> h5-dooring
 ```

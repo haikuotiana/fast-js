@@ -24,7 +24,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { coordinatesInRect } from 'fast-js';
+import { coordinatesInRect } from 'fast-utiljs';
 
 const point = coordinatesInRect([3, 4], 5, 6);
 console.log(point); // -> [ 5, 7 ]

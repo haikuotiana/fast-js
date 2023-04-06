@@ -14,7 +14,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { isPhone } from 'fast-js';
+import { isPhone } from 'fast-utiljs';
 
 // 判断是否为正确的手机格式
 console.log(isPhone(13334433333)); // -> true

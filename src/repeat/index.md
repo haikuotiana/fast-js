@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { repeat } from 'fast-js';
+import { repeat } from 'fast-utiljs';
 
 const str = repeat('dooring', 3);
 console.log(str); // dooringdooringdooring

@@ -24,7 +24,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { judgePointInCircle } from 'fast-js';
+import { judgePointInCircle } from 'fast-utiljs';
 
 const res = judgePointInCircle(
   {

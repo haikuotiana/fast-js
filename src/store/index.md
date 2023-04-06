@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { store } from 'fast-js';
+import { store } from 'fast-utiljs';
 // 将对象序列化
 store.set('name', 'dooring', Date.now() + 1000);
 console.log(store.get('name'));
@@ -35,7 +35,7 @@ store.set('dooring', 'xuxiaoxi', Date.now() + 1000, (status, key, value) => {
  * title: 打开控制台查看结果
  */
 
-import { store } from 'fast-js';
+import { store } from 'fast-utiljs';
 
 // 设置过期时间
 store.set('name', 'dooring', Date.now() + 1000);

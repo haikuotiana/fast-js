@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { formatDate } from 'fast-js';
+import { formatDate } from 'fast-utiljs';
 
 formatDate(new Date().getTime()); //2021-11-12 10:05:30
 

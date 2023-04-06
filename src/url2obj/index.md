@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { url2obj } from 'fast-js';
+import { url2obj } from 'fast-utiljs';
 
 url2obj('?name=h5-dooring&desc=h5-mark'); // {name: 'h5-dooring', desc: 'h5-mark'}
 ```

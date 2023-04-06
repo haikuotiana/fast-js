@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { shuffle } from 'fast-js';
+import { shuffle } from 'fast-utiljs';
 
 shuffle([1, 3, 5, 7, 4, 3]); // -> [3,1,5,7,3,4]
 ```

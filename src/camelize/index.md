@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { camelize } from 'fast-js';
+import { camelize } from 'fast-utiljs';
 
 const name = camelize('ab-cd-ef');
 console.log(name); //ab-cd-ef ==> abCdEf

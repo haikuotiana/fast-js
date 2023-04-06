@@ -24,7 +24,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { factorial } from 'fast-js';
+import { factorial } from 'fast-utiljs';
 
 factorial(5); // -> 120
 factorial(19); // -> 121645100408832000n

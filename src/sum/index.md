@@ -20,7 +20,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { sum } from 'fast-js';
+import { sum } from 'fast-utiljs';
 
 sum([1, 2, 3, 4, 5]); // -> 15
 ```

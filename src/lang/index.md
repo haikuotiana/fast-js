@@ -19,7 +19,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { lang } from 'fast-js';
+import { lang } from 'fast-utiljs';
 
 // 判断是否为英文
 console.log(lang.isEn('sadsad')); // -> true

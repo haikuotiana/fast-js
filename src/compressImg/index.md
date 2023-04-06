@@ -14,7 +14,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { compressImg } from 'fast-js';
+import { compressImg } from 'fast-utiljs';
 
 // 压缩图片
 const newImg = compressImg(img, 'image/png', 500, 300, 0.8).then((blob) =>

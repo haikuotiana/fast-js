@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { cloneDeep } from 'fast-js';
+import { cloneDeep } from 'fast-utiljs';
 
 const door = cloneDeep([1, 2, 3, 4, 5]);
 console.log(door); // -> [1, 2, 3, 4, 5]

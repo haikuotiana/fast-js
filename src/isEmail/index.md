@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { isEmail } from 'fast-js';
+import { isEmail } from 'fast-utiljs';
 
 // 判断是否为正确的邮箱格式
 console.log(isEmail('1111@qq.com')); // -> true

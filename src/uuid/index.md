@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { uuid } from 'fast-js';
+import { uuid } from 'fast-utiljs';
 
 const id1 = uuid(8);
 

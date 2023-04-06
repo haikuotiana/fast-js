@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { formatNumber } from 'fast-js';
+import { formatNumber } from 'fast-utiljs';
 const num = formatNumber(1024);
 console.log(num); // -> 1,024
 ```

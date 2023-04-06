@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { difference } from 'fast-js';
+import { difference } from 'fast-utiljs';
 
 const door = difference([1, 2, 3, 4, 5], [2, 3]);
 console.log(door); // -> [1, 4, 5]

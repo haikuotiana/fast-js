@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { obj2url } from 'fast-js';
+import { obj2url } from 'fast-utiljs';
 
 obj2url({ a: 123, b: 'H5-Dooring' }); // a=123&b=H5-Dooring
 ```

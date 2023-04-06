@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { isIdCard } from 'fast-js';
+import { isIdCard } from 'fast-utiljs';
 
 // 判断是否为正确的邮箱格式 => 18位
 console.log(isIdCard('142431199009093611')); // -> true

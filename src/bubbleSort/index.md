@@ -16,7 +16,7 @@ group:
 Demo:
 
 ```tsx | pure
-import { bubbleSort } from 'fast-js';
+import { bubbleSort } from 'fast-utiljs';
 let arr = [1, 3, 2, 8, 4];
 let objArr = [
   { name: '8', age: 18 },
