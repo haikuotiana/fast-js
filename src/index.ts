@@ -1,6 +1,5 @@
 export { default as parser } from './parser';
 export { default as store } from './store';
-export { default as uuid } from './uuid';
 export { default as obj2url } from './obj2url';
 export { default as isPc } from './isPc';
 export { default as formatDate } from './formatDate';
@@ -20,6 +19,7 @@ export { default as camelize } from './camelize';
 export { default as hyphenate } from './hyphenate';
 export { default as getRawType } from './getRawType';
 export { default as getRuntimeEnv } from './getRuntimeEnv';
+export { default as getUrlParams } from './getUrlParams';
 export { default as repeat } from './repeat';
 export { default as transformTree } from './transformTree';
 export { default as random } from './random';

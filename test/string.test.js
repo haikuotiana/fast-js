@@ -7,8 +7,7 @@ import {
   hyphenate,
   hyCompact,
   randomStr,
-  repeat,
-  uuid,
+  repeat
 } from '../src/index';
 
 describe('字符串操作相关测试', () => {
@@ -70,10 +69,5 @@ describe('字符串操作相关测试', () => {
   test('生成一个重复的字符串，有 n 个 str 组成', () => {
     const str = 'xijs';
     expect(repeat(str, 5)).toBe('xijsxijsxijsxijsxijs');
-  });
-
-  test('生成唯一 id', () => {
-    // Why uuid is undefined?
-    console.log('uuid function ---> ', uuid);
   });
 });

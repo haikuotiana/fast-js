@@ -5,8 +5,8 @@ export default defineConfig({
   // favicon: 'http://cdn.dooring.cn/dr/fast.png',
   // logo: 'http://cdn.dooring.cn/dr/fast.png',
   outputPath: 'dist',
-  // base: '/fast-utiljs/',
-  // publicPath: '/fast-utiljs/',
+  base: '/fast-utiljs/',
+  publicPath: '/fast-utiljs/',
   mode: 'site',
   navs: [
     null, // null 值代表保留约定式生成的导航，只做增量配置

@@ -1,6 +1,6 @@
 {
   "name": "fast-utiljs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "fast-utiljs is a quick to use tool library that is easy to use in daily development, simple and convenient",
   "author": "haikuotiana",
   "keywords": [
@@ -37,11 +37,11 @@
     ]
   },
   "dependencies": {
+    "@babel/runtime": "^7.18.9",
     "lodash.clonedeep": "^4.5.0",
     "lodash.difference": "^4.5.0",
-    "nanoid": "^3.1.30",
-    "qs": "^6.10.1",
-    "@babel/runtime": "^7.18.9"
+    "nanoid": "^4.0.2",
+    "qs": "^6.10.1"
   },
   "devDependencies": {
     "@types/lodash.clonedeep": "^4.5.6",
