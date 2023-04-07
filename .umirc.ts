@@ -4,7 +4,7 @@ export default defineConfig({
   title: ' ',
   // favicon: 'http://cdn.dooring.cn/dr/fast.png',
   // logo: 'http://cdn.dooring.cn/dr/fast.png',
-  // outputPath: 'dist',
+  outputPath: 'dist',
   // base: '/fast-utiljs/',
   // publicPath: '/fast-utiljs/',
   mode: 'site',
