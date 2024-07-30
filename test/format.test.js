@@ -5,6 +5,7 @@ import {
   obj2url,
   transformTree,
   url2obj,
+  defaultDate
 } from '../src/index';
 describe('数据结构相关测试', () => {
   test('数据深拷贝', () => {
@@ -33,7 +34,12 @@ describe('数据结构相关测试', () => {
     copyObj.f.aa = 3;
     expect(obj).not.toEqual(copyObj);
   });
+  test('默认日期区间', () => {
+      const timeStamp = defaultDate('currentMonth','-'),
+      expectFormat = ['2024-07-01','2024-07-30'];
 
+    expect(timeStamp).toEqual(expectFormat);
+  });
   test('时间格式化', () => {
     const timeStamp = new Date(2023, 3, 5, 20, 30, 59).getTime(),
       format = formatDate(timeStamp, '今天是YY年MM月DD日 hh时mm分ss秒'),

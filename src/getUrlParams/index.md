@@ -22,5 +22,5 @@ import { getUrlParams } from 'fast-utiljs';
 const paramsAll = getUrlParams(); //获取地址参数对象 {name:"zhangsan",age:12}
 
 const nameValue = getUrlParams(name); //获取地址参数对象 "zhangsan"
-*/
+
 ```
