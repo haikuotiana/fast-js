@@ -2,9 +2,9 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   title: ' ',
-  // favicon: 'http://cdn.dooring.cn/dr/fast.png',
-  // logo: 'http://cdn.dooring.cn/dr/fast.png',
-  outputPath: 'dist',
+  // favicon: '',
+  // logo: '',
+  outputPath: './fast-utiljs',
   base: '/fast-utiljs/',
   publicPath: '/fast-utiljs/',
   mode: 'site',

@@ -1,8 +1,12 @@
+// import pageTrack from 'src/formDataToJson';
+
 export { default as parser } from './parser';
 export { default as store } from './store';
+export { default as uuid } from './uuid';
 export { default as obj2url } from './obj2url';
 export { default as isPc } from './isPc';
 export { default as formatDate } from './formatDate';
+export { default as defaultDate } from './defaultDate';
 export { default as url2obj } from './url2obj';
 export { default as throttle } from './throttle';
 export { default as debounce } from './debounce';
@@ -19,12 +23,10 @@ export { default as camelize } from './camelize';
 export { default as hyphenate } from './hyphenate';
 export { default as getRawType } from './getRawType';
 export { default as getRuntimeEnv } from './getRuntimeEnv';
-export { default as getUrlParams } from './getUrlParams';
 export { default as repeat } from './repeat';
 export { default as transformTree } from './transformTree';
 export { default as random } from './random';
 export { default as cloneDeep } from './cloneDeep';
-export { default as defaultDate } from './defaultDate';
 export { default as base64 } from './base64';
 export { default as hyCompact } from './hyCompact';
 export { default as isArray } from './isArray';
@@ -46,5 +48,49 @@ export { default as sum } from './sum';
 
 export { default as isEmail } from './isEmail';
 export { default as isIdCard } from './isIdCard';
+
+export { default as linkListToArray } from './linkListToArray';
+
 export { default as lang } from './lang';
 
+export { default as transformArray } from './transformArray';
+export { default as arrayToListNode } from './arrayToListNode';
+export { default as $ } from './getDom';
+export { default as getDomText } from './getDomText';
+export { default as getDomPageXY } from './getDomPageXY';
+export { default as getDomScreenXY } from './getDomScreenXY';
+export { default as xss } from './xss';
+export { default as dateCalculate } from './dateCalculate';
+export { default as timeSub } from './timeSub';
+export { default as genRandomColor } from './genRandomColor';
+export { default as regex } from './regex';
+export { default as downloadFileWithText } from './donwloadFileWithText';
+export { default as downloadFileWithUrl } from './downloadFileWithUrl';
+export { default as timeCutStr } from './timeCutStr';
+
+export { default as minBy } from './minBy';
+export { default as maxBy } from './maxBy';
+
+export { default as completeIp } from './completeIp';
+
+export { default as capitalizedAmount } from './capitalizedAmount';
+
+export { default as dataDesensitization } from './dataDesensitization';
+export { default as BothLinkedList } from './bothLinkedList';
+
+export { default as formDataToJson } from './formDataToJson';
+export { default as binaryTree } from './binaryTree';
+
+export { default as floatAdd } from './floatAdd';
+export { default as floatDiv } from './floatDiv';
+export { default as floatMul } from './floatMul';
+export { default as floatSub } from './floatSub';
+
+export { default as arrayRepeat } from './arrayRepeat';
+export { default as isObjEqual } from './isObjEqual';
+export { default as getRepeatCharacter } from './getRepeatCharacter';
+
+export { default as calculateMemory } from './calculateMemory';
+
+export { default as designateRepeat } from './designateRepeat';
+export { default as PriorityQueue } from './priorityQueue';

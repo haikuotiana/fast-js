@@ -30,7 +30,7 @@ npm install fast-utiljs
 2. 通过 cdn 引入
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fast-utiljs@1.1.1/dist/fast-utiljs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fast-utiljs@1.0.7/dist/fast-utiljs.min.js"></script>
 ```
 
 ### 贡献者

@@ -17,6 +17,7 @@ Demo:
 
 ```tsx | pure
 import { store } from 'fast-utiljs';
+
 // 将对象序列化
 store.set('name', 'dooring', Date.now() + 1000);
 console.log(store.get('name'));
